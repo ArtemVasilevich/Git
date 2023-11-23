@@ -1,0 +1,18 @@
+form {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid red;
+  display: none;
+}
+form input {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+img {
+  width: 50px;
+  position: relative;
+  left: 82%;
+}

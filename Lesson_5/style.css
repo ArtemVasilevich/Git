@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@300;400;900&display=swap");
+
+body {
+  background-image: url(https://99px.ru/sstorage/86/2019/03/image_862503191338477194372.gif);
+}
+
+.info {
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.movie {
+  font-family: Oswald, sans-serif;
+  margin-top: 40px;
+  width: 280px;
+  padding: 5px;
+  background-color: blue;
+  border-radius: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.movie:hover {
+  -webkmit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.movie img {
+  width: 230px;
+  height: 300px;
+}
+.movie h4 {
+  font-size: 20px;
+  color: black;
+  background-color: orange;
+}
+
+.movie h5 {
+  font-size: 20px;
+}
